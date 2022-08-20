@@ -1,0 +1,89 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+section{
+	text-align: center;
+	height: 100%;
+	font-size: 1em;
+}
+
+body {
+	margin: 0;
+	background-color: rgb(254, 254, 254);    /* general, page-wide style rules */
+	color: black;
+	font-family: helvetica;
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;                         
+	background-color: rgb(254, 254, 254); 
+	align-content: center;
+	border-bottom: 1px solid black;
+}	
+
+.navbar li{
+	float: left;
+	padding: 2em;    /* style rules for navbar links */
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+footer {
+	padding: 1em;
+	background-color: black;   /* style rules for tagged elements of page */
+	color: white;
+}
+
+section {
+	border-top: 0.1em solid black;
+	height: 400px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#about-div img{
+	float: right;
+}
+
+#large-logo, #welcome-message, #login-link, #social-links{   
+	align-content: center;
+	font-weight: bold;	
+}
+
+#about-div, #experience, #skills, #education {
+	float: left;
+	width: 50%;
+}
+
+
+#welcome-message {
+	padding-top: 10em;
+}
+
+#welcome-message, #about-experience{
+	justify-content: center;
+	color: black;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+li {
+	list-style-type: none;	
+}
