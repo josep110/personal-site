@@ -8,10 +8,7 @@ function Home(){
 			<StickyHeader header={
 				<section class="navbar">
 					<ul>
-						<li><a href="#about-me">About Me</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#education">Education</a></li>
+						<li><a href="#about-me">CV</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="login.html">Blog</a></li>
 					</ul>
