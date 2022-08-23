@@ -1,0 +1,14 @@
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;                         
+	background-color: rgb(209, 205, 205); 
+	align-content: center;
+	border-bottom: 1px solid black;
+}	
+
+.navbar li{
+	float: left;
+	padding: 2em;    /* style rules for navbar links */
+}
