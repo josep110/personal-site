@@ -10,7 +10,7 @@ import Blog from './pages/Blog.js';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import Layout from './components/layout.js';
+// import Layout from './components/layout.js';
 
 import Header from './components/header.js';
 import Footer from './components/footer.js';

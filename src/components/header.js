@@ -1,6 +1,6 @@
 import React from 'react';
 import StickyHeader from 'react-sticky-header';
-import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header(){
