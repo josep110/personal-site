@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'react-sticky-header/styles.css';
 import './Home.css';
-
 function Home(){
-	console.log("Home");
+	
+	useEffect(() => {
+		document.title = "Joseph Rose";
+	}, []);
+
 	return(
         <div>
 			<section id="welcome-message">

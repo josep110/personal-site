@@ -9,9 +9,9 @@ function footer(){
 				<ul>
 					<li>Email: <t/>josephrose01@protonmail.com</li>
 					<li>Tel: <t/>+44 7449095113</li>
-					<li>GitHub: <t/>github.com/josep110</li>
-					<li>LinkedIn: <t/>linkedin.com/in/joseph-rose-446494164/</li>
-					<li>HackerRank: <t/>hackerrank.com/josephrose90</li>
+					<li><a href="github.com/josep110">GitHub</a></li>
+					<li><a href="linkedin.com/in/joseph-rose-446494164">LinkedIn</a></li>
+					<li><a href="hackerrank.com/josephrose90">HackerRank</a></li>
 				</ul>
         </div>
     )
