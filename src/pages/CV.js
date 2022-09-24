@@ -1,6 +1,6 @@
 import React from 'react';
 import 'react-sticky-header/styles.css';
-import cv from '../images/CV_JR.pdf'
+import cv from '../images/Joseph_Rose_CV.pdf'
 import './CV.css';
 
 
