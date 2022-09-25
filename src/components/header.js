@@ -19,18 +19,18 @@ function Header(){
 		setPassw(e.target.value);
 	};
 
-	const handleLogin = (e) => {
-		e.preventDefault();
-		const form = $(e.target);
-		$.ajax({
-			type: "POST",
-			url: form.attr("action"),
-			data: form.serialize(),
-			success(data){
-				setResult(data);
-			},
-		});
-	};
+	// const handleLogin = (e) => {
+	// 	e.preventDefault();
+	// 	const form = $(e.target);
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: form.attr("action"),
+	// 		data: form.serialize(),
+	// 		success(data){
+	// 			setResult(data);
+	// 		},
+	// 	});
+	// };
 
     return(
         <div>
@@ -45,7 +45,7 @@ function Header(){
 						<form class="login-area"
 							action='https://localhost:8000/server.php'
 							method='post'
-							onSubmit={(event) => handleLogin(event)}
+							// onSubmit={(event) => handleLogin(event)}
 						>
 						<input
 							type='text'
