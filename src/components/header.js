@@ -9,7 +9,7 @@ function Header(){
 
 	const [uname, setUname] = useState("");
 	const [passw, setPassw] = useState("");
-	const [result, setResult] = useState("");
+	// const [result, setResult] = useState("");
 
 	const handleUname = (e) => {
 		setUname(e.target.value);
