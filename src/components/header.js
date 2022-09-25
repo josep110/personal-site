@@ -40,8 +40,8 @@ function Header(){
 					<ul>
                         <li><Link to='/'>Home</Link></li>
 						<li><Link to='/CV'>CV</Link></li>
-						<li><Link to='/Projects'>Projects</Link></li>
-						<li><Link to='/Blog'>Blog</Link></li>
+						{/* <li><Link to='/Projects'>Projects</Link></li>
+						<li><Link to='/Blog'>Blog</Link></li> */}
 						<form class="login-area"
 							action='https://localhost:8000/server.php'
 							method='post'
