@@ -28,9 +28,12 @@ function Header(){
 			data: form.serialize(),
 			success(data){
 				setResult(data);
+				console.log(result);
 			},
 		});
 	};
+
+	
 
     return(
         <div>
