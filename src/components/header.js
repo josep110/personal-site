@@ -9,7 +9,7 @@ function Header(){
 
 	const [uname, setUname] = useState("");
 	const [passw, setPassw] = useState("");
-	// const [result, setResult] = useState("");
+	const [result, setResult] = useState("");
 
 	const handleUname = (e) => {
 		setUname(e.target.value);
@@ -19,18 +19,18 @@ function Header(){
 		setPassw(e.target.value);
 	};
 
-	// const handleLogin = (e) => {
-	// 	e.preventDefault();
-	// 	const form = $(e.target);
-	// 	$.ajax({
-	// 		type: "POST",
-	// 		url: form.attr("action"),
-	// 		data: form.serialize(),
-	// 		success(data){
-	// 			setResult(data);
-	// 		},
-	// 	});
-	// };
+	const handleLogin = (e) => {
+		e.preventDefault();
+		const form = $(e.target);
+		$.ajax({
+			type: "POST",
+			url: form.attr("action"),
+			data: form.serialize(),
+			success(data){
+				setResult(data);
+			},
+		});
+	};
 
     return(
         <div>
@@ -43,9 +43,9 @@ function Header(){
 						{/* <li><Link to='/Projects'>Projects</Link></li>
 						<li><Link to='/Blog'>Blog</Link></li> */}
 						<form class="login-area"
-							action='https://localhost:8000/server.php'
+							action='https://josephrose0.netlify.app/server.php'
 							method='post'
-							// onSubmit={(event) => handleLogin(event)}
+							onSubmit={(event) => handleLogin(event)}
 						>
 						<input
 							type='text'
