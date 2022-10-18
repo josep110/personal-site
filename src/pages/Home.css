@@ -33,8 +33,10 @@ section {
 	margin-right: 5px;
 }
 
-#about-div img{
+#about-div img, #education{
 	float: right;
+	/* height: 100%;
+	width: 100%; */
 }
 
 #large-logo, #welcome-message, #login-link, #social-links{   
@@ -42,8 +44,14 @@ section {
 	font-weight: bold;	
 }
 
-#about-div, #experience, #skills, #education {
+#about-div, #experience, #skills{
 	float: left;
+	/* width: 50%; */
+}
+
+#about{ 
+	float: left;
+	justify-content: left;
 	width: 50%;
 }
 
@@ -67,4 +75,9 @@ h2 {
 
 li {
 	list-style-type: none;	
+}
+
+picture {
+	background-image: url("me.jpeg");
+	background-color: black;
 }

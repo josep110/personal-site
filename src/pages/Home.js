@@ -18,19 +18,24 @@ function Home(){
 				<article id="about">
 					<h3>About Me</h3>
 					<p>
-					My long-term aspiration is to work as a Computer Science researcher, specialising in Security Engineering,
-					Computability or Software Performance. After attaining my bachelor's degree at QMUL, I aim to attain a Master's Degree 
-					and Doctorate in Computer Science, I aim to contribute to the field through scientific research.</p>
+					A final year Bachelor’s student at Queen Mary University of London, undertaking the Computer Science course. Alongside studying I like 
+					researching and experimenting with new technologies, and being a mentor for younger CS students in my role as a teaching assistant. I am seeking an
+opportunity to begin my career in software engineering with a role that will allow me to learn and develop a powerful technical skill set, and a
+deep understanding of computing and software.</p>
+				
 				</article>
+				<div id="me-img">
+					<img src="images/logo.png" alt="me" width="128" height="128"/>
+				</div>
 			</div>
-            
-			<div id="experience">
+            {/* <div id="picture"></div> */}
+			{/* <div id="experience">
 				<h3>Experience</h3>
 				<ul id="horizontal-ul">
 					<li>Participated in a Google Developer Student Club.</li>
 					<li>Developed a fully-functional computer game, along with documentation, as part of A-Level coursework.</li>
 				</ul>
-			</div>	
+			</div>	 */}
 			</section>
 			<section id="skills-education-login">
 			<div id="skills">

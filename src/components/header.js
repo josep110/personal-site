@@ -12,6 +12,7 @@ function Header(){
 	const [result, setResult] = useState("");
 
 	const handleUname = (e) => {
+		console.log("username");
 		setUname(e.target.value);
 	};
 
@@ -20,6 +21,7 @@ function Header(){
 	};
 
 	const handleLogin = (e) => {
+		console.log("handlelogin");
 		e.preventDefault();
 		const form = $(e.target);
 		$.ajax({
@@ -45,12 +47,12 @@ function Header(){
 						<li><Link to='/CV'>CV</Link></li>
 						{/* <li><Link to='/Projects'>Projects</Link></li>
 						<li><Link to='/Blog'>Blog</Link></li> */}
-						<form class="login-area"
+						<form class="login-area" hidden="yes"
 							action='https://josephrose0.netlify.app/server.php'
 							method='post'
 							onSubmit={(event) => handleLogin(event)}
 						>
-						<input
+						{/* <input
 							type='text'
 							id='uname'
 							name='uname'
@@ -64,7 +66,7 @@ function Header(){
 							value={passw}
 							onChange={(event) => handlePassw(event)}
 						/>	
-						 <button type="submit">Submit</button>
+						 <button type="submit">Submit</button> */}
 					</form>
 				</ul>
 			    
