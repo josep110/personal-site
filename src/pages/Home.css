@@ -78,6 +78,6 @@ li {
 }
 
 picture {
-	background-image: url("me.jpeg");
+	/* background-image: url("me.jpeg"); */
 	background-color: black;
 }
