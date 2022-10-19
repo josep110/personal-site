@@ -47,11 +47,11 @@ function Header(){
 						<li><Link to='/CV'>CV</Link></li>
 						{/* <li><Link to='/Projects'>Projects</Link></li>
 						<li><Link to='/Blog'>Blog</Link></li> */}
-						<form class="login-area" hidden="yes"
+						{/* <form class="login-area" hidden="yes"
 							action='https://josephrose0.netlify.app/server.php'
 							method='post'
 							onSubmit={(event) => handleLogin(event)}
-						>
+						> */}
 						{/* <input
 							type='text'
 							id='uname'
