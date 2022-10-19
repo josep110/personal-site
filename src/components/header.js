@@ -7,33 +7,33 @@ import './header.css';
 
 function Header(){
 
-	const [uname, setUname] = useState("");
-	const [passw, setPassw] = useState("");
-	const [result, setResult] = useState("");
+	// const [uname, setUname] = useState("");
+	// const [passw, setPassw] = useState("");
+	// const [result, setResult] = useState("");
 
-	const handleUname = (e) => {
-		console.log("username");
-		setUname(e.target.value);
-	};
+	// const handleUname = (e) => {
+	// 	console.log("username");
+	// 	setUname(e.target.value);
+	// };
 
-	const handlePassw = (e) => {
-		setPassw(e.target.value);
-	};
+	// const handlePassw = (e) => {
+	// 	setPassw(e.target.value);
+	// };
 
-	const handleLogin = (e) => {
-		console.log("handlelogin");
-		e.preventDefault();
-		const form = $(e.target);
-		$.ajax({
-			type: "POST",
-			url: form.attr("action"),
-			data: form.serialize(),
-			success(data){
-				setResult(data);
-				console.log(result);
-			},
-		});
-	};
+	// const handleLogin = (e) => {
+	// 	console.log("handlelogin");
+	// 	e.preventDefault();
+	// 	const form = $(e.target);
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: form.attr("action"),
+	// 		data: form.serialize(),
+	// 		success(data){
+	// 			setResult(data);
+	// 			console.log(result);
+	// 		},
+	// 	});
+	// };
 
 	
 
